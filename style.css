@@ -1,7 +1,13 @@
 body {
   font-family: Helvetica, sans-serif;
   color: #414144;
+  background-image: url("img/grid.png");
+  background-repeat: repeat;
+  background-size: 600px 600px;
+  margin: 0;
+  padding: 0;
 }
+
 
 /* MAIN */
 .main-section {
@@ -11,27 +17,24 @@ body {
 }
 
 .main-left {
-  border-right: solid 2px #E3E9EB;
   width: 40%;
   padding: 15px;
 }
 
 .main-info {
   display: flex;
-  background: white;
+  width: 100%;
 }
 
 .main-info img {
   border-radius: 5px;
 }
 
-.main-info {
-  width: 100%;
-}
-
 .main-description {
   padding: 0 15px;
-  width: 100%;
+  background: white;
+  border-radius: 15px;
+  margin-left: 10px
 }
 
 .main-contact {
@@ -69,15 +72,20 @@ body {
 .main-right h3 {
   background: #ffd6a0;
   color: #bd632f;
-  padding-left: 15px;
+  /* padding-left: 15px; */
+  padding: 3px 0 3px 10px;
+  border-radius: 2px;
 }
+
 
 /* EXPERIENCES */
 .experience-section {
   text-align: center;
-  background-color: #f1f4f5;
+  background-color: #fcf5ef;
+  /* background-color: #f5f1f1; */
+  /* background-color: rgb(241, 244, 245, 0.8); */
   padding: 10px 0 30px;
-  width: 100%;
+  width: auto;
 }
 
 .experience {
@@ -89,7 +97,8 @@ body {
 .experience-entry {
   display: flex;
   justify-content: space-between;
-  width: 1200px;
+  max-width: 1200px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -101,7 +110,8 @@ body {
 }
 
 .experience-content {
-  background-color: #E3E9EB;
+  background-color: #f7e8db;
+  /* background-color: #ebe3e3; */
   width: 90%;
   padding: 0 20px;
   border-radius: 5px;
@@ -139,6 +149,7 @@ body {
   border-radius: 5px;
 }
 
+
 /* HIGHLIGHTS */
 .highlights-section {
   text-align: center;
@@ -162,6 +173,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 30px;
+  border-radius: 5px;
 }
 
 .highlights-entry h3 {
@@ -169,6 +181,52 @@ body {
 }
 
 .highlights-entry .video {
-  width: 560px;
-  height: 315px;
+  width: 90%;
+  aspect-ratio: 16 / 9;
+}
+
+/* FOR SMALLER SCREENS */
+@media (max-width: 1400px) {
+  .main-info {
+    flex-direction: column;
+  }
+
+  .main-description {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .highlights {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .highlights-entry {
+    width: 80%;
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-section {
+    flex-direction: column;
+    margin: 0 15px;
+  }
+
+  .main-left {
+    width: 100%;
+    padding: 0;
+  }
+
+  .main-info {
+    align-items: center;
+  }
+
+  .main-right {
+    width: 100%;
+    padding: 0;
+  }
 }
