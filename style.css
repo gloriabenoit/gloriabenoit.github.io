@@ -12,7 +12,7 @@ body {
 /* MAIN */
 .main-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 15px;
 }
 
@@ -41,11 +41,12 @@ body {
   background: white;
   margin-top: 30px;
   border: solid 1px #414144;
+  width: 100%;
 }
 
 .main-header {
   background: #ffd6a0;
-  padding-left: 15px;
+  padding: 2px 0 2px 15px;
   border-bottom: solid 1px #414144;
   color: #bd632f;
 }
@@ -54,6 +55,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .main-links a {
@@ -65,7 +67,7 @@ body {
 }
 
 .main-right {
-  width: 60%;
+  width: 55%;
   padding: 15px;
 }
 
