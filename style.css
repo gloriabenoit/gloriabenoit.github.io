@@ -3,6 +3,7 @@ body {
   color: #414144;
   background-image: url("img/grid.png");
   background-repeat: repeat;
+  background-attachment:fixed;
   background-size: 600px 600px;
   margin: 0;
   padding: 0;
