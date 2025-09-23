@@ -13,13 +13,35 @@ p {
   text-align: justify;
 }
 
-/* SCOTCH TAPE */
+.basicbox {
+  /* background: #ffd6a0; */
+  color: #bd632f;
+  background-color: #fcf5ef;
+  /* width: 45%; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  border-radius: 5px;
+  text-decoration: none;
+  position: relative;
+}
 
+.basicbox:hover {
+  box-shadow: 0px 0px 10px rgba(122, 122, 122, 0.2);
+  transform: scale(1.01);
+}
+
+.basicbox:hover .tape{
+  display: none;
+}
+
+/* SCOTCH TAPE */
 .tape {
-    position: absolute;
-    width: 15%;
-    height: 6%;
-    background-color: hsla(0, 17%, 92%, 0.3);
+  position: absolute;
+  width: 15%;
+  height: 6%;
+  background-color: hsla(0, 17%, 92%, 0.3);
 }
 
 .toplefttape{
@@ -150,30 +172,21 @@ p {
 
 .project-entry {
   /* background: #ffd6a0; */
-  color: #bd632f;
-  background-color: #fcf5ef;
+  /* color: #bd632f; */
+  /* background-color: #fcf5ef; */
   width: 45%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 30px;
-  border-radius: 5px;
-  text-decoration: none;
-  position: relative;
+  /* padding-bottom: 30px; */
+  /* border-radius: 5px; */
+  /* text-decoration: none; */
+  /* position: relative; */
 }
 
 .project-entry h3 {
   border-bottom: solid 1px #bd632f;
-}
-
-.project-entry:hover {
-  box-shadow: 0px 0px 10px rgba(122, 122, 122, 0.2);
-  transform: scale(1.01);
-}
-
-.project-entry:hover .tape{
-  display: none;
 }
 
 /* EXPERIENCES */
@@ -216,6 +229,13 @@ p {
   margin: 10px;
   text-align: start;
 }
+
+
+.experience-content:hover {
+  box-shadow: 0px 0px 10px rgba(122, 122, 122, 0.2);
+  transform: scale(1.005);
+}
+
 
 .experience-internship {
   background-color: white;
@@ -268,12 +288,29 @@ p {
 
 .soundtrack {
   width: 60%;
-  color: #bd632f;
-  background-color: #fcf5ef;
-  border-radius: 5px;
+  /* color: #bd632f; */
+  /* background-color: #fcf5ef; */
+  /* border-radius: 5px; */
   display: flex;
   align-items: center;
   padding: 15px;
+}
+
+.soundtrack .tape{
+  width: 10%;
+  height: 8%;
+}
+
+.soundtrack .toprighttape{
+	top: 2%;
+	right: -3%;
+  transform: rotate(45deg);
+}
+
+.soundtrack .bottomlefttape{
+	bottom: 2%;
+	left: -3%;
+  transform: rotate(45deg);
 }
 
 .soundtrack .video {
