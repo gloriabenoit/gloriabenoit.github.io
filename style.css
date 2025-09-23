@@ -9,6 +9,42 @@ body {
   padding: 0;
 }
 
+p {
+  text-align: justify;
+}
+
+/* SCOTCH TAPE */
+
+.tape {
+    position: absolute;
+    width: 15%;
+    height: 6%;
+    background-color: hsla(0, 17%, 92%, 0.3);
+}
+
+.toplefttape{
+	top: 3%;
+	left: -4%;
+  transform: rotate(-45deg);
+}
+
+.bottomrighttape{
+	bottom: 3%;
+	right: -4%;
+  transform: rotate(-45deg);
+}
+
+.toprighttape{
+	top: 3%;
+	right: -4%;
+  transform: rotate(45deg);
+}
+
+.bottomlefttape{
+	bottom: 3%;
+	left: -4%;
+  transform: rotate(45deg);
+}
 
 /* MAIN */
 .main-section {
@@ -124,6 +160,11 @@ body {
   padding-bottom: 30px;
   border-radius: 5px;
   text-decoration: none;
+  position: relative;
+}
+
+.project-entry h3 {
+  border-bottom: solid 1px #bd632f;
 }
 
 .project-entry:hover {
@@ -131,10 +172,9 @@ body {
   transform: scale(1.01);
 }
 
-.project-entry h3 {
-  border-bottom: solid 1px #bd632f;
+.project-entry:hover .tape{
+  display: none;
 }
-
 
 /* EXPERIENCES */
 .experience-section {
