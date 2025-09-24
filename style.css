@@ -146,6 +146,12 @@ p {
   padding: 10px 0 30px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.project-section h1 {
+  background: white;
+  padding: 3px 15px;
 }
 
 .project {
@@ -222,7 +228,7 @@ p {
 
 .experience-content {
   background-color: #f7e8db;
-  /* background-color: #ebe3e3; */
+  
   width: 90%;
   padding: 0 20px;
   border-radius: 5px;
@@ -230,6 +236,13 @@ p {
   text-align: start;
 }
 
+.experience-content.education {
+  /* background-color: #ebe3e3; */
+  /* background-color: #f7e8db; */
+  /* background-color: #ebded5; */
+  /* background-color: #ebddd0; */
+  background-color: #f7eddb;
+}
 
 .experience-content:hover {
   box-shadow: 0px 0px 10px rgba(122, 122, 122, 0.2);
@@ -284,6 +297,11 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.soundtrack-section h1 {
+  background: white;
+  padding: 3px 15px;
 }
 
 .soundtrack {
