@@ -13,6 +13,11 @@ p {
   text-align: justify;
 }
 
+.section-box {
+  text-align: center;
+  padding: 10px 0 40px;
+}
+
 .basicbox {
   /* background: #ffd6a0; */
   color: #bd632f;
@@ -142,8 +147,6 @@ p {
 
 /* PROJECT HIGHLIGHTS */
 .project-section {
-  text-align: center;
-  padding: 10px 0 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -197,11 +200,9 @@ p {
 
 /* EXPERIENCES */
 .experience-section {
-  text-align: center;
   background-color: #fcf5ef;
   /* background-color: #f5f1f1; */
   /* background-color: rgb(241, 244, 245, 0.8); */
-  padding: 10px 0 30px;
   width: auto;
 }
 
@@ -228,7 +229,8 @@ p {
 
 .experience-content {
   background-color: #f7e8db;
-  
+  text-decoration: none;
+  color: #414144;
   width: 90%;
   padding: 0 20px;
   border-radius: 5px;
@@ -253,11 +255,20 @@ p {
 .experience-internship {
   background-color: white;
   border-radius: 5px;
-  padding: 5px;
+  padding: 15px;
   margin-bottom: 15px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
+}
+
+.experience-description {
+  /* padding: 5px 15px 0; */
+  padding-right: 35px;
+}
+
+.experience-description p {
+  margin-bottom: 5px;
 }
 
 .experience-year {
@@ -292,8 +303,6 @@ p {
 
 /* SOUNDTRACK */
 .soundtrack-section {
-  text-align: center;
-  padding: 10px 0 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -338,8 +347,13 @@ p {
 
 .soundtrack-info {
   width: 40%;
-  text-align: justify;
+  text-align: center;
   padding: 15px;
+}
+
+.soundtrack-info a {
+  color: #bd442f;
+  font-weight: bold;
 }
 
 
