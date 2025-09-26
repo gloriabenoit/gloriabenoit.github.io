@@ -386,7 +386,7 @@ p {
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 960px) or (orientation: portrait) {
   .main-section {
     flex-direction: column;
     margin: 0 15px;
