@@ -380,9 +380,13 @@ p {
     width: 80%;
     margin: 15px 0;
   }
+
+  .soundtrack {
+    width: 80%;
+  }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 960px) {
   .main-section {
     flex-direction: column;
     margin: 0 15px;
@@ -422,5 +426,9 @@ p {
 
   .experience-year .first_second {
     width: 100%;
+  }
+
+  .experience-description {
+    padding-right: 0;
   }
 }
