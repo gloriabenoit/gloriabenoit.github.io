@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <title> About Me </title>
+        <link rel="icon" type="image/x-icon" href="../img/keycap.png">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="funmode.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="./funmode.js"></script>
+        <main>
+            <section class="header">
+                <div class="header-left">
+                    <div class="header-info">
+                        <img id="pp" width="300" height="300" src="../img/pp.jpg" alt="Gloria Benoit">
+                        <div class="header-description">
+                            <h1> Gloria BENOIT </h1>
+                            <p> Hi! </p>
+                            <p> Recently graduated from a Master's degree in BioInformatics at Université Paris Cité, I am now a research engineer at Institut Pasteur in Paris. </p>
+                        </div>
+                    </div>
+
+                    <div class="header-contact">
+                        <h4> My alter egos </h4>
+                        <div class="header-links">
+                            <a href="mailto:gloria.benoit@pasteur.fr" class="profile-link">
+                                <i class="fas fa-envelope"></i> Email
+                            </a>
+                            <a href="https://www.linkedin.com/in/gloria-benoit-bi/" class="profile-link">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="https://github.com/gloriabenoit" class="profile-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://www.kaggle.com/gloriabenoit" class="profile-link">
+                                <i class="fab fa-kaggle"></i> Kaggle
+                            </a>
+                            <a href="https://pypi.org/user/glbenoit/" class="profile-link">
+                                <i class="fab fa-python"></i> PyPi
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <nav> 
+                        <ul class='navbar'>
+                            <li><a href='./index.html'> Home </a></li>
+                            <li><a href='./conferences.html'> Conferences </a></li>
+                            <li><a href='./about.html'> About Me </a></li>
+                            <li>
+                                <div class="funmode">
+                                    <p>Fun mode</p>
+                                    <label class="switch">
+                                        <input type="checkbox" id="funCheckbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-news">
+                        <div class="news">
+                            <h3>Current affiliation</h3>
+                            <p>
+                                I currently am a research engineer at Institut Pasteur, in Paris, within the Statistical Genetics team led by Hugues Aschard.
+                                This follows my 6 month internship in the same team under supervision by Léo Henches, a permanent research engineer.
+                            </p>
+                        </div>
+                        <div class="news">
+                            <h3>Latest appearances</h3>
+                            <p>
+                                During my intership at Institut Pasteur, I was lucky to attend two conferences:
+                                the <i>International symposium on Human Genomics</i> (ISHG) in Paris, France, in May 2025, and
+                                the <i>European Mathematical Genetics Meeting</i> (EMGM) in Brest, France, in April 2025.
+                                During these two meetings, my supervisor Léo Henches and I had the opportunity to present our work on
+                                using DNAnexus to perform a GWAS study on UK Biobank data through a poster presentation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="experience-section box-section">       
+                <h1>Experience and Education</h1>
+                <div class="experience">
+                    <!-- Timeline Entry -->
+                    <div class="experience-entry">
+                        <div class="experience-date">2025 - Now</div>
+                        <a href="https://research.pasteur.fr/en/team/statistical-genetics/" class="experience-content" target="_blank">
+                            <h2>Research Engineer (8 month)</h2>
+                            <h3>Institut Pasteur</h3>
+                            <p>
+                                In collaboration with Michael Cho's team at the Brigham and Women's Hospital in Boston,
+                                as part of the NIH project <b>1R01HL168199-01A1</b>,
+                                I have studied the heterogeneity of chronic obstructive pulmonary disease (COPD).
+                            </p>
+                            <p>
+                                I have created a single pipeline to detect pleiotropic patterns across using six approaches:  <i>SUPERGNOVA</i>
+                                and <i>HDL-L</i>,which estimate local genetic correlations; and <i>GFA</i>, <i>Guide</i>, <i>GLEANR</i> and <i>FactorGo</i>
+                                which derive latent factors. 
+                            </p>
+                        </a>
+                    </div> 
+
+                    <!-- Timeline Entry -->
+                    <div class="experience-entry">
+                        <div class="experience-date">2024 - 2025</div>
+                        <a href="https://odf.u-paris.fr/fr/offre-de-formation/master-XB/sciences-technologies-sante-STS/bio-informatique-K2VO60MU/master-bioinformatique-parcours-biologie-informatique-IJTUMHHO.html" class="experience-content education" target="_blank">
+                            <h2>Master 2 in Bioinformatics</h2>
+                            <h3>Université Paris Cité</h3>
+                            <p></p>
+                            <div class="experience-internship">
+                                <div class="experience-description">
+                                    <b>Internship: Efficient cloud computing in large scale genetic data</b> (Jan-Jun 2025, <i>Pasteur Institute</i>, Léo Henches)
+                                    <p>The aim of the internship is to transition from using UK Biobank data locally to their DNAnexus platform.
+                                        The goal is to produce a range of tools that will make it easy and straightforward to perform a GWAS on DNAnexus.
+                                    </p>
+                                </div>
+                                <img src="../img/pasteur_logo.jpg" alt="Institut Pasteur" width="135px">
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Timeline Entry -->
+                    <div class="experience-entry">
+                        <div class="experience-date">2023 - 2024</div>
+                        <a href="https://odf.u-paris.fr/fr/offre-de-formation/master-XB/sciences-technologies-sante-STS/bio-informatique-K2VO60MU/master-bioinformatique-parcours-biologie-informatique-IJTUMHHO.html" class="experience-content education" target="_blank">
+                            <h2>Master 1 in Bioinformatics</h2>
+                            <h3>Université Paris Cité</h3>
+                            <p></p>
+                            <div class="experience-internship">
+                                <div class="experience-description">
+                                    <b>Internship: Experimental data processing in the mass spectrometric analysis of intact proteins</b> (Mar-Jun 2024, <i>Jacques Monod Institute</i>, Jean-Michel Camadro)
+                                    <p>The aim of the internship is to produce software suitable for processing the signal obtained by mass spectrometry for intact proteins.
+                                        The development is carried out in Python, and takes into account all data processing, as well as data analysis.
+                                    </p>
+                                </div>
+                                <img src="../img/ijm_logo.png" alt="Institut Jacques Monod" height="60px">
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Timeline Entry -->
+                    <div class="experience-entry">
+                        <div class="experience-date">2020 - 2023</div>
+                        <a href="https://odf.u-paris.fr/fr/offre-de-formation/licence-XA/sciences-technologies-sante-STS/sciences-de-la-vie-K2VOD4MO/licence-sciences-de-la-vie-parcours-biologie-informatique-bi-JRM9ZHZ9.html" class="experience-content education" target="_blank">
+                            <h2>Bachelor in Life Sciences (Bioinformatics cursus)</h2>
+                            <h3>Université Paris Cité</h3>
+                            <p>I started my Bachelor in Life and Earth Sciences, before switching to a Bachelor in Life Sciences in order to pursue BioInformatics.</p> 
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="soundtrack-section box-section">
+                <h1>Music recommendations</h1>
+                <div class="soundtrack box-basic">
+                    <div class="video">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/uU2ngVFyUsM?si=amuEara5XaNT44kz"
+                                title="Soundtrack recommendation"
+                                frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                                encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>      
+                    </div>
+                    <div class="soundtrack-info">
+                        <p>
+                            <i>
+                                Club Carter Radio is an independent online radio show;
+                                a musical journey through a handpicked selection of indie,
+                                electronic, alternative, rock, hip-hop, soul, jazz, and everything in between.
+                                Guided by Sagid Carter, former Dutch radio DJ.
+                                Recorded from Amsterdam.
+                            </i>
+                        </p>
+                        <a href="https://www.sagidcarter.com/club-carter-radio" target="_blank">Visit Club Carter Radio</a>
+                        <p>
+                            Tuning in every week on Club Carter Radio has been a blast ever
+                            since I've discovered it.
+                            Each Monday comes with a new handcrafted, manually curated playlist of new or old songs, of varying genre.
+                            I highly recommend trying it out!
+                        </p>
+                    </div>
+                </div>
+            </section> 
+
+        </main>
+    </body>
+</html>

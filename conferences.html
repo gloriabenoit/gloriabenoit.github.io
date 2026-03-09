@@ -2,7 +2,7 @@
 <html lang="eng">
         <head>
         <meta charset="utf-8">
-        <title> Gloria Benoit's Homepage </title>
+        <title> Poster Gallery </title>
         <link rel="icon" type="image/x-icon" href="../img/keycap.png">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -11,6 +11,7 @@
     </head>
     <body>
         <script src="./funmode.js"></script>
+        <script src="./poster_carousel.js"></script>
         <main>
             <section class="header">
                 <div class="header-left">
@@ -82,47 +83,27 @@
                     </div>
                 </div>
             </section>
+            
+            <section class="posters box-section">
+                <h1>Poster gallery</h1>
+                <div class="gallery">
+                    <div class="carousel">
+                        <div class="entry" data-target="#emgm_25">
+                            <img src="../img/poster_emgm_25.png" alt="Choose EMGM 2025 poster">
+                        </div>
+                    </div>
 
-            <section class="project box-section">
-                <h1>Project highlights</h1>
-                <div class="project-entry right">
-                    <a href="https://gloriabenoit.github.io/DNAnexus-GWAS/" class="project-content box-basic" target="_blank">
-                        <div class="project-info">
-                            <h3>GWAS tutorial on DNAnexus</h3>
+                    <div class="highlight">
+                        <div id="emgm_25" class="entry active">
+                            <img src="../img/poster_emgm_25.png" alt="Poster for EMGM 2025">
                             <p>
-                                This tutorial aims to ease the <b>transition</b> between using <b>the UK Biobank data</b> through a local access and using the devoted platform: <b>DNAnexus</b>.
-                            </p>
-                            <p>
-                                Since the use of DNAnexus is becoming <b>mandatory</b>, it is crucial to learn how to use it, even more so seeing as the <b>comprehensive</b> documentation can be intimidating.
-                            </p>
-                            <p>
-                                The tutorial guides you through <b>every step to perform a GWAS</b>, as well as the very <b>basics</b> when using DNAnexus, which makes it <b>beginner friendly</b>.
+                                I presented this poster at the <i>European Mathematical Genetics Meeting</i> (EMGM) in Brest, France, in April 2025.
+                                This is my first poster ever, during my first conference ever! This poster is the result of my 6 month internship project,
+                                done at Intistut Pasteur under the supervision of Leo Henches.
                             </p>
                         </div>
-                        <img src="../img/GWAStutorial.png" alt="Tutorial Main Page">
-                    </a>
-                </div>
-
-                <div class="project-entry left">
-                    <a href="https://pypi.org/project/dxlog/" class="project-content box-basic" target="_blank">
-                        <img src="../img/dxlog.png" alt="dxlog Main Page">
-                        <div class="project-info">
-                            <h3>App to display DNAnexus jobs</h3>
-                            <p>
-                                This app allows for the <b>displaying</b> of latest <b>DNAnexus jobs</b> in a convenient UI through the terminal.
-                            </p>
-                            <p>
-                                Although it is possible to <b>launch</b> and <b>track</b> DNAnexus jobs purely from the <b>terminal</b>, doing the latter can be a bit troublesome.
-                            </p>
-                            <p>
-                                With a <b>single command</b>, you can <b>display, filter, and search</b> for the most recent jobs performed in your DNAnexus project.
-                                You can also <b>select</b> a specific job to view the associated <b>log</b>.
-                            </p>
-                        </div>
-                    </a>
                 </div>
             </section>
-
         </main>
     </body>
 </html>
