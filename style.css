@@ -266,7 +266,7 @@ li a:link, a:visited, a:active {
   text-align: justify;
 }
 
-.entry-info  h2, h3{
+.entry-info  h2{
   margin-bottom: 0;
 }
 
@@ -303,6 +303,15 @@ li a:link, a:visited, a:active {
   max-width: 1300px;
   width: 80%;
   margin: 0 auto;
+}
+
+.experience-entry  h2{
+  margin-bottom: 0;
+}
+
+.experience-entry  h3{
+  padding-top: 5px;
+  margin: 0;
 }
 
 .experience-entry a {
@@ -422,6 +431,10 @@ li a:link, a:visited, a:active {
 /* VERTICAL MODE */
 @media (orientation: portrait) {
   /* COMMON STUFF */
+  html {
+    font-size: 22px;
+  }
+  
   /* Header */
   .header {
     flex-direction: column;
@@ -485,7 +498,21 @@ li a:link, a:visited, a:active {
     width: 100%;
   }
 
+  .highlight img {
+    width: 90%;
+  }
+
   /* ABOUT ME */
+  /* Experiences */
+  .experience-internship {
+    flex-direction: column;
+  }
+
+  .experience-internship img {
+    padding-top: 5px;
+  }
+
+  /* Music recommandation */
   .soundtrack {
     flex-direction: column;
     width: 80%;
