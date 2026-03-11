@@ -37,7 +37,6 @@ p {
   background-color: whitesmoke;
   border-radius: 5px;
   text-decoration: none;
-  position: relative;
 }
 
 .box-basic:hover {
@@ -111,6 +110,7 @@ li a:link, a:visited, a:active {
   border-radius: 15px;
   margin-left: 10px;
   height: 300px;
+  position: relative;
 }
 
 .header-contact {
@@ -202,8 +202,14 @@ li a:link, a:visited, a:active {
 .project-info {
   padding: 15px;
   width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.project-info p {
+  margin-top: 0;
+}
 
 /* CONFERENCES */
 .posters .gallery {
@@ -247,6 +253,7 @@ li a:link, a:visited, a:active {
   border-radius: 10px;
   width: 78%;
   background: whitesmoke;
+  position: relative;
 }
 
 .highlight .entry {
@@ -421,11 +428,19 @@ li a:link, a:visited, a:active {
   width: 40%;
   text-align: center;
   padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .soundtrack-info a {
   color: #414144;
   font-weight: bold;
+}
+
+.soundtrack-link {
+  display: flex;
+  align-items: center;
 }
 
 /* VERTICAL MODE */
