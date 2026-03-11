@@ -104,7 +104,11 @@ body.fun {
 
 /* CONFERENCES */
 /* Poster gallery */
-.fun .gallery * {
+.fun .gallery .carousel {
+  background: #fcf5ef;
+}
+
+.fun .gallery .highlight {
   background: #fcf5ef;
   color: #bd442f;
 }
