@@ -79,11 +79,11 @@ input:checked + .slider:before {
 
 /* HOMEPAGE */
 .fun #pp {
-  content:url("../img/pp_fun.jpg");
+  content:url("./img/pp_fun.jpg");
 }
 
 body.fun {
-  background-image: url("../img/grid_fun.png");
+  background-image: url("./img/grid_fun.png");
   background-size: 640px 640px;
 }
 

@@ -3,7 +3,7 @@
 body {
   font-family: Helvetica, sans-serif;
   color: #414144;
-  background-image: url("../img/grid.png");
+  background-image: url("./img/grid.png");
   background-repeat: repeat;
   background-attachment:fixed;
   background-position: center;
@@ -92,6 +92,8 @@ li a:link, a:visited, a:active {
 /* Left panel */
 .header-left {
   padding-right: 15px;
+  width: 35%;
+  min-width: 550px;
 }
 
 .header-info {
@@ -109,7 +111,6 @@ li a:link, a:visited, a:active {
   border-radius: 15px;
   margin-left: 10px;
   height: 300px;
-  max-width: 200px;
 }
 
 .header-contact {
@@ -145,7 +146,7 @@ li a:link, a:visited, a:active {
 
 /* Right panel */
 .header-right {
-  width: 65%;
+  width: 60%;
   padding-right: 15px;
   display: flex;
   justify-content: space-between;
@@ -256,6 +257,19 @@ li a:link, a:visited, a:active {
 
 .highlight img {
   width: 70%;
+}
+
+.highlight .entry-info {
+  text-align: justify;
+}
+
+.entry-info  h2, h3{
+  margin-bottom: 0;
+}
+
+.entry-info  h3{
+  padding-top: 5px;
+  margin: 0;
 }
 
 /* ABOUT ME */
