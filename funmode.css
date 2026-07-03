@@ -76,6 +76,14 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+/* News */
+.funfact{
+  display: none;
+}
+
+.fun .funfact{
+  display: block;
+}
 
 /* HOMEPAGE */
 .fun #pp {
@@ -102,6 +110,12 @@ body.fun {
   color: #bd632f;
 }
 
+/* DOCUMENTATION */
+.fun .doc-content {
+  color: #414144;
+}
+
+
 /* CONFERENCES */
 /* Poster gallery */
 .fun .gallery .carousel {
@@ -115,7 +129,7 @@ body.fun {
 
 /* ABOUT ME */
 /* Experiences */
-.fun .experience-section {
+.fun .large-section {
   background-color: #fcf5ef;
 }
 

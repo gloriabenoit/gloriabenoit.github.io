@@ -44,6 +44,23 @@ p {
   transform: scale(1.01);
 }
 
+.large-section {
+  background-color: whitesmoke;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.large-section h1 {
+  background: none;
+}
+
+.large-section.box-section {
+  text-align: center;
+  margin: 15px 0;
+}
+
 
 /* Navigation bar */
 nav {
@@ -211,6 +228,44 @@ li a:link, a:visited, a:active {
   margin-top: 0;
 }
 
+/* DOCUMENTATIONS */
+.documentation h1 {
+  margin-bottom: 30px;
+}
+
+.documentation .doc-entry {
+  display: flex;
+  margin: 0 50px 30px;
+}
+
+.doc-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+  background-color: white !important;
+}
+
+.doc-content img {
+  width: 25%;
+}
+
+.doc-info {
+  /* padding-right: 30px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 72%;
+}
+
+.doc-info h3 {
+  margin: 0;
+}
+
+.doc-info p {
+  margin-bottom: 0;
+}
+
 /* CONFERENCES */
 .posters .gallery {
   width: 100%;
@@ -284,26 +339,6 @@ li a:link, a:visited, a:active {
 
 /* ABOUT ME */
 /* Experiences */
-.experience-section {
-  background-color: whitesmoke;
-  width: auto;
-}
-
-.experience-section h1 {
-  background: none;
-}
-
-.experience-section.box-section {
-  text-align: center;
-  margin: 15px 0;
-}
-
-.experience {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .experience-entry {
   display: flex;
   justify-content: space-between;
